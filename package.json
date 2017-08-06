@@ -1,0 +1,37 @@
+{
+  "name": "fute",
+  "version": "1.0.2",
+  "description": "The streaming build system",
+  "main": "index.js",
+  "bin": {
+    "fute": "bin/fute"
+  },
+  "scripts": {
+    "init": "node lib/index.js init"
+  },
+  "keywords": [
+    "build",
+	"nodejs",
+    "html",
+    "parse"
+  ],
+  "author": "Anuny",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "glob-stream": "^3.1.5",
+    "glob-watcher": "^0.0.6",
+    "graceful-fs": "^3.0.0",
+    "less": "^2.7.2",
+    "minimist": "^1.1.0",
+    "mkdirp": "^0.5.0",
+    "orchestrator": "^0.3.0",
+    "swig": "^1.4.2",
+    "swig-marked": "0.0.1",
+    "ternary-stream": "^2.0.1",
+    "through2": "^0.6.1",
+    "uglify-js": "^3.0.27",
+    "vinyl": "^0.4.0",
+    "ws": "^3.1.0"
+  }
+}

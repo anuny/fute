@@ -1,0 +1,4 @@
+# Fute
+## License
+
+MIT

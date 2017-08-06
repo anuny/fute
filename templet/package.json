@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "description": "html design",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "fute"
+  ],
+  "author": "Fute",
+  "license": "MIT",
+  "fute": {
+    "port": 3000,
+    "watch": true,
+    "openBrowser": true,
+    "reloadBrowser": true,
+    "src": "src",
+    "dist": "dist",
+    "statics": "static",
+    "filter": "@",
+    "minifix": ".mini",
+    "ext": {
+      "title": "test"
+    }
+  }
+}
